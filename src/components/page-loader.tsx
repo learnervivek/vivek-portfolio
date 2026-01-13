@@ -37,7 +37,7 @@ export default function PageLoader() {
         
         {/* Loading text */}
         <div className="flex flex-col items-center gap-2">
-          <h2 className="text-lg font-semibold text-foreground">Welcome to Vivek&apos;s Portfolio</h2>
+          <h2 className="text-lg font-semibold text-foreground">Welcome to Vivek&#39;s Portfolio</h2>
           <div className="flex gap-1">
             <span className="h-2 w-2 animate-bounce rounded-full bg-primary" style={{ animationDelay: "0ms" }}></span>
             <span className="h-2 w-2 animate-bounce rounded-full bg-primary" style={{ animationDelay: "150ms" }}></span>
