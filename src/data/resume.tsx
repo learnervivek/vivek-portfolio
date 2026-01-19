@@ -134,6 +134,30 @@ export const DATA = {
       image: "/blog.png",
       video: "",
     },
+     {
+      title: "Career-Connect",
+      href: "https://github.com/learnervivek/Career-connect",
+      dates: "Jan 2025",
+      active: true,
+      description:
+        "A full-stack MERN job portal enabling employers to post roles and manage applicants, while job seekers search, apply, track applications, upload resumes, use secure JWT authentication, role-based access, dashboards, rich listings, and a responsive interface.",
+      technologies: ["React.js", "Node.js", "Express.js", "MongoDB","Mongoose", "Cloudinary","JWT Authentication "],
+      links: [],
+      image: "/career connect.png",
+      video: "",
+    },
+     {
+      title: "Portfolio-Website",
+      href: "https://www.vivekgupta.tech/",
+      dates: "Jan 2025",
+      active: true,
+      description:
+        "A modern, responsive portfolio website showcasing my MERN stack expertise, built with Next.js 14, React 18, TypeScript, and Tailwind CSS, featuring dark mode, animations, SEO optimization, markdown content, syntax highlighting, custom components, and mobile-first design.",
+      technologies: ["TypeScript", "Next.js", "React.js", "Magic UI", "Tailwind CSS","Framer Motion","Radix UI","Lucide React"],
+      links: [],
+      image: "/portfolio.png",
+      video: "",
+    },
     {
       title: "AI Article Summarizer – Chrome Extension",
       href: "https://github.com/learnervivek/AI-article-summerizer-extension",
@@ -146,6 +170,10 @@ export const DATA = {
       image: "/ext.png",
       video: "",
     },
+   
+   
+
+
     {
       title: "Saarthi: Cultural Heritage Platform",
       href: "https://saarthi0.netlify.app/",
