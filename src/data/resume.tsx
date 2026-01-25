@@ -6,6 +6,7 @@ export const DATA = {
   initials: "VG",
   url: "https://www.linkedin.com/in/learnervivek",
   location: "Ghaziabad, Uttar Pradesh",
+  resumeUrl: "/resume.pdf",
   description:
     "I’m a passionate web developer who loves turning ideas into dynamic, high-performance websites. With expertise in MERN stack, I bring a well-rounded approach to building SEO-friendly, scalable web applications that deliver seamless user experiences.",
   summary:
@@ -69,6 +70,12 @@ export const DATA = {
         name: "LinkedIn",
         url: "https://linkedin.com/in/learnervivek",
         icon: Icons.linkedin,
+        navbar: true,
+      },
+      Leetcode: {
+        name: "Leetcode",
+        url: "https://leetcode.com/u/learnervivek/",
+        icon: Icons.Leetcode,
         navbar: true,
       },
       X: {
