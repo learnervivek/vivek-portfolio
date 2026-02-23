@@ -219,5 +219,23 @@ export const DATA = {
     },
 
   ],
+  certifications: [
+    {
+      title: "AWS Certified Cloud Practitioner",
+      issuer: "AWS",
+      date: "January 29, 2026",
+      image: "/aws.png",
+      href: "https://www.credly.com/badges/d00918d0-6bd1-4cc8-b7de-088d04277e45/public_url",
+      description: "Completed AWS Cloud Foundations training covering core cloud.",
+    },
+    {
+      title: "AWS Certified Cloud Practitioner",
+      issuer: "Deloitte",
+      date: "August 30 2025",
+      image: "/delloite.png",
+      href: "https://drive.google.com/file/d/1aOKkjrLtw_s8FfCtw2GbJHGb9nwaQqZY/view",
+      description: "Software Development, Coding, Technology Job Simulation, Problem Solving",
+    },
+  ],
   hackathons: [],
 } as const;

@@ -2,6 +2,7 @@ import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
+import { CertificationCard } from "@/components/certification-card";
 import { ResumeCard } from "@/components/resume-card";
 import { ResumeDownload } from "@/components/resume-download";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -148,6 +149,43 @@ export default function Page() {
                   image={project.image}
                   video={project.video}
                   links={project.links}
+                />
+              </BlurFade>
+            ))}
+          </div>
+        </div>
+      </section>
+      <section id="certifications">
+        <div className="space-y-12 w-full py-12">
+          <BlurFade delay={BLUR_FADE_DELAY * 13}>
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                  Certifications
+                </div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  Professional Certifications
+                </h2>
+                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  Continuously learning and earning industry-recognized certifications to stay updated with latest technologies and best practices.
+                </p>
+              </div>
+            </div>
+          </BlurFade>
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
+            {DATA.certifications.map((certification, id) => (
+              <BlurFade
+                key={certification.title}
+                delay={BLUR_FADE_DELAY * 14 + id * 0.05}
+              >
+                <CertificationCard
+                  key={certification.title}
+                  title={certification.title}
+                  issuer={certification.issuer}
+                  date={certification.date}
+                  image={certification.image}
+                  href={certification.href}
+                  description={certification.description}
                 />
               </BlurFade>
             ))}
