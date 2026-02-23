@@ -229,7 +229,7 @@ export const DATA = {
       description: "Completed AWS Cloud Foundations training covering core cloud.",
     },
     {
-      title: "AWS Certified Cloud Practitioner",
+      title: "Deloitte Australia - Technology",
       issuer: "Deloitte",
       date: "August 30 2025",
       image: "/delloite.png",
