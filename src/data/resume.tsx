@@ -121,6 +121,19 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "InvoiceAI",
+      href: "https://invoice-ai-gules-delta.vercel.app/",
+      dates: "March 2026",
+      active: true,
+      description:
+        "InvoiceAI is a conversational MERN stack application powered by Google Gemini AI, enabling businesses to generate professional invoices via chat, with real-time previews, PDF generation, and secure Razorpay payment integration.",
+      technologies: ["React.js (Vite)", "Tailwind CSS", "Framer Motion", "Zustand", "Shadcn UI", "Lucide Icons", "Node.js", "Express.js", "Google Generative AI (Gemini 1.5 Flash)", "Node-Cron", "MongoDB", "Mongoose", "Razorpay SDK", "Nodemailer"
+],
+      links: [],
+      image: "/invoice.png",
+      video: "",
+    },
+    {
       title: "Mega Blog Web Application",
       href: "https://blogify-rho-blue.vercel.app/",
       dates: "Aug 2025",
@@ -144,13 +157,26 @@ export const DATA = {
      {
       title: "Career-Connect",
       href: "https://github.com/learnervivek/Career-connect",
-      dates: "Jan 2025",
+      dates: "Jan 2026",
       active: true,
       description:
         "A full-stack MERN job portal enabling employers to post roles and manage applicants, while job seekers search, apply, track applications, upload resumes, use secure JWT authentication, role-based access, dashboards, rich listings, and a responsive interface.",
       technologies: ["React.js", "Node.js", "Express.js", "MongoDB","Mongoose", "Cloudinary","JWT Authentication "],
       links: [],
       image: "/career connect.png",
+      video: "",
+    },
+    {
+      title: "Apex-AI",
+      href: "https://github.com/learnervivek/Apex-AI",
+      dates: "Feb 2026",
+      active: true,
+      description:
+        "AI-powered full-stack sports performance platform for athletes and coaches, featuring JWT authentication, personalized workout generation, advanced performance analytics, coach management, profile customization, and a modern animated React-based frontend interface.",
+      technologies: ["React 19", "Vite", "Framer Motion", "Recharts", "Lucide React", "Tailwind CSS", "Node.js", "Express.js ", "MongoDB", "Mongoose ", "JWT"
+],
+      links: [],
+      image: "/apex.png",
       video: "",
     },
      {
@@ -235,6 +261,30 @@ export const DATA = {
       image: "/delloite.png",
       href: "https://drive.google.com/file/d/1aOKkjrLtw_s8FfCtw2GbJHGb9nwaQqZY/view",
       description: "Software Development, Coding, Technology Job Simulation, Problem Solving",
+    },
+     {
+      title: "Introduction to MongoDB",
+      issuer: "MongoDB",
+      date: "Jan 9, 2025",
+      image: "/mongo.png",
+      href: "https://learn.mongodb.com/c/wLESDQdbSRyd62Ozu3klIw",
+      description: "Student-focused course covering MongoDB basics, queries, and database design.",
+    },
+    {
+      title: "Explore a Career in Front-End Web Development",
+      issuer: "Linkedin learning",
+      date: "Oct 17, 2024",
+      image: "/frontend.png",
+      href: "https://www.linkedin.com/learning/certificates/9246805f7507e75f577c49f0638c92054507cab8644afa97d36cc9624493eea5",
+      description: "Completed Front-End Web Development learning path certification.",
+    },
+    {
+      title: "A Quick Start Guide to Programming in Python",
+      issuer: "Linkedin learning",
+      date: "Dec 03, 2024",
+      image: "/python.png",
+      href: "https://www.linkedin.com/learning/certificates/b27822fc36bbd17916ac8b3d0d0b16e20cfebd8295eb12a44721a936fbde6105",
+      description: "Completed Python programming fundamentals course via LinkedIn Learning.",
     },
   ],
   hackathons: [],
