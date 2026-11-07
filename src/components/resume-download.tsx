@@ -48,7 +48,7 @@ export function ResumeDownload({ resumeUrl, name }: ResumeDownloadProps) {
         </Button>
 
         <p className="text-xs text-muted-foreground/60">
-          PDF • Last updated: January 2025
+          PDF • Last updated: November 2026
         </p>
       </div>
     </div>

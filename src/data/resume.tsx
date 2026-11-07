@@ -3,7 +3,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Vivek Kumar Gupta",
-  initials: "VG",
+  initials: "Vivek",
   url: "https://www.linkedin.com/in/learnervivek",
   location: "Ghaziabad, Uttar Pradesh",
   resumeUrl: "/resume.pdf",
@@ -11,15 +11,16 @@ export const DATA = {
     "I’m a passionate web developer who loves turning ideas into dynamic, high-performance websites. With expertise in MERN stack, I bring a well-rounded approach to building SEO-friendly, scalable web applications that deliver seamless user experiences.",
   summary:
     " I’m Vivek Kumar Gupta, a dedicated web developer with a strong passion for creating high-performance, user-friendly applications. I specialize in web development using modern frameworks and technologies like React, MongoDB, Node.js, and Next.js. Over the course of my career, I’ve developed and successfully completed over 10 projects, which you can explore in my Projects section and on my Github.",
-  avatarUrl: "/pfpp.jpg",
+  avatarUrl: "/dpp.png",
   skills: [
+    "JavaScript",
     "C",
     "C++",
-    "JavaScript",
     "Python",
     "Node.js",
     "Express.js",
     "EJS",
+    "Next.js",
     "React.js",
     "Redux",
     "MongoDB",
@@ -121,8 +122,23 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "TripTally",
+      href: "https://triptally-yeu6.vercel.app/",
+      dates: "Oct 2026",
+      active: true,
+      description:
+        " TripTally is an AI-powered, collaborative group travel workspace and expense tallying platform tailored for Indian and global travellers. It integrates a Gemini AI itinerary generator with interactive maps, shared checklists, real-time INR budget tracking, automated debt simplification, and Razorpay-powered settlements.",
+      technologies: ["Node.js", "React 18", "Express.js", "MongoDB", "Tailwind CSS ", "Mongoose ODM", "JWT", "bcryptjs", "Razorpay SDK", "React Hook Form", "Zod", "Recharts", 
+        "Leaflet",   "Lucide React", 
+      
+      ],
+      links: [],
+      image: "/triptally.png",
+      video: "",
+    },
+    {
       title: "InvoiceAI",
-      href: "https://invoice-ai-gules-delta.vercel.app/",
+      href: "https://invoiceai-henna.vercel.app/",
       dates: "March 2026",
       active: true,
       description:
@@ -156,14 +172,14 @@ export const DATA = {
     },
      {
       title: "Career-Connect",
-      href: "https://github.com/learnervivek/Career-connect",
+       href: "https://career-connect-xzga.vercel.app/",
       dates: "Jan 2026",
       active: true,
       description:
         "A full-stack MERN job portal enabling employers to post roles and manage applicants, while job seekers search, apply, track applications, upload resumes, use secure JWT authentication, role-based access, dashboards, rich listings, and a responsive interface.",
       technologies: ["React.js", "Node.js", "Express.js", "MongoDB","Mongoose", "Cloudinary","JWT Authentication "],
       links: [],
-      image: "/career connect.png",
+      image: "/career.png",
       video: "",
     },
     {
@@ -254,6 +270,15 @@ export const DATA = {
       href: "https://www.credly.com/badges/d00918d0-6bd1-4cc8-b7de-088d04277e45/public_url",
       description: "Completed AWS Cloud Foundations training covering core cloud.",
     },
+    {
+      title: "AWS Certified AI Practitioner",
+      issuer: "AWS",
+      date: "August 12, 2026",
+      image: "/aws.png",
+      href: "https://www.credly.com/badges/df19c3b8-6b0a-46ea-9096-f258a477ddd3/public_url",
+      description: "AI/ML fundamentals, generative AI, AWS AI services, responsible AI, and machine learning concepts",
+    },
+
     {
       title: "Deloitte Australia - Technology",
       issuer: "Deloitte",
